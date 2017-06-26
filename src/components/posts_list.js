@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PostsDetail from './posts_list_detail';
 
 const PostsList = (props) => {

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 const PostsDetail = (props) => {
     return this.props.post.map((post) =>{
