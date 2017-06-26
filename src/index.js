@@ -5,4 +5,4 @@ import routes from './routes';
 
 
 
-ReactDOM.render(<Router history={browserHistory} routes={routes} />,document.querySelector('.container'));
+ReactDOM.render(<Router history={hashHistory} routes={routes} />,document.querySelector('.container'));

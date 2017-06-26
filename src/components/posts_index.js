@@ -11,6 +11,12 @@ class PostsIndex extends Component{
     render(){
         return(
             <div>
+                <div className="header col-md-12">
+                    <h1>To Do List</h1>
+                    <div className="text-xs-right">
+                        <Link to="/posts/new"  className="btn btn-primary">NEW</Link>
+                    </div>     
+                </div>
                 <div>
                     <PostsList post={this.state}/>
                 </div>

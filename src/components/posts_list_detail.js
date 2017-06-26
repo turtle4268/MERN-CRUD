@@ -5,11 +5,11 @@ const PostsDetail = (props) => {
         return(
             <li className="list-group-item" key={this.props.post.id}>
                 <div className="list col-sm-3">
-                    <div class="title"><h3>{this.props.post.title}</h3></div>
+                    <div className="title"><h3>{this.props.post.title}</h3></div>
                     <p>{this.props.post.content}</p>
                     <footer>
-                        <button class='button'><span class="glyphicon glyphicon-remove" ></span></button>
-                        <link to="/"><span class="glyphicon glyphicon-pencil"></span></link>
+                        <button className='button'><span className="glyphicon glyphicon-remove" ></span></button>
+                        <Link to="/"><span claclassNamess="glyphicon glyphicon-pencil"></span></Link>
                     </footer>
                 </div>
             </li>
