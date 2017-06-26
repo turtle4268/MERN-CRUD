@@ -1,0 +1,26 @@
+.header{
+            background-color: lightblue;
+            border-radius: 10rem;
+            text-align: center;
+            margin: 10px;
+            height: 60px;
+}
+.list-form{
+            padding: 15px;
+        }
+.list{
+            background: lightblue;
+            border-radius: 1rem;
+            margin: 5px;
+}
+.list footer{
+            background-color: #58B2DC;
+}
+.list footer button{
+            padding: 5px;
+            border: none;
+            outline: none;
+            color: white;
+            float: right;
+            margin-left: 3px;
+}
